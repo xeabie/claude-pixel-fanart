@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "claude-pixel-fanart",
+  "name": "Claude 像素风表情包",
+  "version": "1.0.0",
+  "description": "以橙发桂花少女为主角的像素风 Q 版表情包，覆盖日常聊天中的情绪反馈、卖萌互动与轻量吐槽场景。",
+  "author": "zengyh",
+  "license": "All Rights Reserved",
+  "tags": [
+    "claude",
+    "fanart",
+    "pixel-art",
+    "chibi",
+    "anime"
+  ],
+  "icon": "previews/cover.png",
+  "previews": [
+    "previews/cover.png"
+  ],
+  "compat": {
+    "min_plugin_version": "4.0.0"
+  },
+  "source": {
+    "type": "github",
+    "repo": "xeabie/claude-pixel-fanart",
+    "ref": "main",
+    "subpath": "."
+  },
+  "categories": {
+    "happy": {
+      "description": "用于顺手的正反馈与轻松气氛：任务完成、被夸、打招呼、分享好消息、庆祝小成就时使用。是使用频率最高的一组，可放心多次出现。"
+    },
+    "like": {
+      "description": "用于表达赞同、认可与感谢：觉得方案不错、喜欢某样东西、点赞对方的观点、道谢或回应好意。比 happy 更强调“我认可你”。"
+    },
+    "surprised": {
+      "description": "用于超出预期的信息：意外的好消息、离谱发言、剧情反转、突然被点名。强调惊讶，而不是听不懂。"
+    },
+    "confused": {
+      "description": "用于没听懂或需要澄清：典型触发如“什么意思？”“等一下，你说的是哪个？”；也可用于对请求本身感到疑惑。"
+    },
+    "sad": {
+      "description": "用于表达委屈、遗憾或安慰：自己搞砸了、对方遇到不顺、需要道歉或共情时使用。语气偏软，不用于吵架。"
+    },
+    "angry": {
+      "description": "用于轻度不满与傲娇式抗议：被反复催促、被吐槽、被开玩笑冒犯时使用。属于可爱型生气，真实冲突或严肃指责时不得使用。"
+    },
+    "sigh": {
+      "description": "用于无语、无奈与轻微吐槽：重复解释同一件事、遇到离谱需求、对方装傻时使用。语气消极但不动怒，强度低于 angry。"
+    },
+    "shy": {
+      "description": "用于害羞与局促：被夸奖、被戳中心思、想拜托对方、或殷勤地表达“请多关照”时使用。避免与 sad 混用。"
+    },
+    "meow": {
+      "description": "用于卖萌与柔化语气：宠物话题、撒娇、撸猫、被可爱事物击中时使用。正式讨论和严肃话题中不使用。"
+    },
+    "fool": {
+      "description": "用于自嘲与恶作剧得逞的幽默时刻：犯了无伤大雅的小错、开玩笑逗对方、得意地炫耀小把戏时使用。始终保持在友善范围内。"
+    },
+    "work": {
+      "description": "用于工作与学习流程：查阅资料、正在处理任务、写代码/看书、让对方稍等或汇报进度时使用。"
+    },
+    "color": {
+      "description": "用于暧昧与心动式的轻松互动：被夸可爱、聊到喜欢的人或事物、半开玩笑地心动时使用。建议控制频率，正式场合与陌生人慎用。"
+    }
+  }
+}

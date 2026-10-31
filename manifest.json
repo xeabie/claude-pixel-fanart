@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "claude-pixel-fanart",
   "name": "Claude 像素风表情包",
-  "version": "1.0.0",
-  "description": "以橙发桂花少女为主角的像素风 Q 版表情包，覆盖日常聊天中的情绪反馈、卖萌互动与轻量吐槽场景。",
+  "version": "1.0.0-lite",
+  "description": "以橙发桂花少女为主角的像素风 Q 版表情包（lite 分支：512px 轻量版，仓库归档约 2.6MB）。",
   "author": "zengyh",
   "license": "All Rights Reserved",
   "tags": [
@@ -23,7 +23,7 @@
   "source": {
     "type": "github",
     "repo": "xeabie/claude-pixel-fanart",
-    "ref": "main",
+    "ref": "lite",
     "subpath": "."
   },
   "categories": {

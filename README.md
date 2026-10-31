@@ -1,12 +1,15 @@
 # Claude 像素风表情包
 
+> **本分支是 `lite` 轻量版**：图片统一压到 512×512 / 256 色，仓库归档约 **2.6 MB**，适合国内网络安装。
+> `main` 分支保留 1254px 原图（归档约 **17.8 MB**）。安装时把 `ref` 填成 `lite` 即可。
+
 以**橙发桂花少女**（头饰桂花与流苏，黑白橙配色）为主角的像素风 Q 版表情包，共 **18 张**图片、**12 个分类**，适用于 AstrBot 表情包管理器（meme_manager）等支持「AstrBot 表情包规范」的应用。
 
 - 包 ID：`claude-pixel-fanart`
 - 版本：`1.0.0`
 - 清单模式版本：`schema_version: 1`
 - 图片格式：PNG（RGB，无透明通道）
-- 分辨率：512×512（7 张）与 1254×1254（11 张）
+- 分辨率：512×512（全部，256 色调色板）
 
 ## 目录结构
 
@@ -63,7 +66,7 @@ claude-pixel-fanart/        ← 包根目录（即本仓库根目录）
    `data/plugin_data/meme_manager/packs/claude-pixel-fanart/` 下，再在页面中刷新。
 3. **仓库地址**：本包已发布在 https://github.com/xeabie/claude-pixel-fanart ，
    清单中的 `source` 已指向该仓库（`ref: main`、`subpath: "."`），
-   可直接在资源广场用「从 GitHub 仓库安装」填入仓库地址安装。
+   安装时仓库填 `xeabie/claude-pixel-fanart`，`ref` 填 `lite`（轻量版）或 `main`（原图），`subpath` 填 `.`。
 
 ## 关于图片
 
